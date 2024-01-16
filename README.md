@@ -37,7 +37,9 @@ Serves organization-wide defaults for all repositories
 [//]: # (Must not have its own title)
 [//]: # (A detailed description of the repo)
 
-
+This repo configures our GitHub org. More info on the specially named .github repo can be found 
+on the GitHub blog article titled
+[Organization-wide community health files](https://github.blog/changelog/2019-02-21-organization-wide-community-health-files/).
 
 [//]: # (Configured by Terraform)
 [//]: # (REQUIRED)
@@ -51,27 +53,11 @@ This repo is configured by Terraform in the
 [//]: # (REQUIRED)
 [//]: # (Delete as appropriate)
 
-1. Security
-1. Background
 1. Install
 1. Usage
-1. [Any extra sections as required]
 1. API
 1. Maintainers
-1. Thanks
 1. Contributing
-1. License
-
-[//]: # (## Security)
-[//]: # (OPTIONAL)
-[//]: # (May go here if it is important to highlight security concerns.)
-
-
-
-[//]: # (## Background)
-[//]: # (OPTIONAL)
-[//]: # (Explain the motivation and abstract dependencies for this repo)
-
 
 
 ## Install
@@ -79,50 +65,22 @@ This repo is configured by Terraform in the
 [//]: # (OPTIONAL IF documentation repo)
 [//]: # (ELSE REQUIRED)
 
-
+Nothing to install.
 
 ## Usage
 [//]: # (REQUIRED)
 [//]: # (Explain what the thing does. Use screenshots and/or videos.)
 
+Just add or edit the files here as required.
 
-
-[//]: # (Extra sections)
-[//]: # (OPTIONAL)
-[//]: # (This should not be called "Extra Sections".)
-[//]: # (This is a space for ≥0 sections to be included,)
-[//]: # (each of which must have their own titles.)
-
-
-
-[//]: # (## API)
-[//]: # (OPTIONAL)
-[//]: # (Describe exported functions and objects)
-
-
-
-[//]: # (## Maintainers)
+## Maintainers
 [//]: # (OPTIONAL)
 [//]: # (List maintainers for this repository)
 [//]: # (along with one way of contacting them - GitHub link or email.)
 
+This repo is maintained by the Yagro Infra team.
 
-
-[//]: # (## Thanks)
-[//]: # (OPTIONAL)
-[//]: # (State anyone or anything that significantly)
-[//]: # (helped with the development of this project)
-
-
-
-<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<!-- !!!!!   DO NOT EDIT BELOW THIS LINE   !!!!! -->
-<!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
 ## Contributing
 [//]: # (REQUIRED)
 PRs are welcome!
-
-## License
-[//]: # (REQUIRED)
-The contents of this repo are proprietary.

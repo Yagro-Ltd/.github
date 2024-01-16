@@ -1,0 +1,82 @@
+name: Feature Request
+description: Suggest an idea or feature.
+title: "[FEATURE REQUEST]: "
+labels: ["feature"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature! Please fill out the following form to help us understand your proposal.
+
+  - type: textarea
+    id: problem-to-solve
+    attributes:
+      label: Problem to Solve
+      description: What problem do we solve?
+      placeholder: 'Describe the problem that this feature will solve.'
+      required: true
+
+  - type: textarea
+    id: intended-users
+    attributes:
+      label: Intended Users
+      description: Who will use this feature? Types of users or specific company roles.
+      placeholder: 'Specify the intended users for this feature.'
+      required: false
+
+  - type: textarea
+    id: further-details
+    attributes:
+      label: Further Details
+      description: Include use cases, benefits, and/or goals.
+      placeholder: 'Provide more context and details about the feature.'
+      required: false
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: How are we going to solve the problem?
+      placeholder: 'Outline your proposal for solving the problem.'
+      required: true
+
+  - type: textarea
+    id: permissions-security
+    attributes:
+      label: Permissions and Security
+      description: What permissions are required to perform the described actions?
+      placeholder: 'Detail any permissions and security considerations.'
+      required: false
+
+  - type: textarea
+    id: documentation
+    attributes:
+      label: Documentation
+      description: Indicate any documentation that will be needed for this feature.
+      placeholder: 'Discuss documentation plans or needs.'
+      required: false
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing
+      description: What risks does this change pose? How might it affect the quality of the product?
+      placeholder: 'Describe the testing approach for this feature.'
+      required: false
+
+  - type: textarea
+    id: success-measurement
+    attributes:
+      label: What does success look like, and how can we measure that?
+      description: Define the success metrics and acceptance criteria.
+      placeholder: 'Explain how success will be measured.'
+      required: false
+
+  - type: textarea
+    id: links-references
+    attributes:
+    label: Links / References
+    description: Provide any relevant links or references related to your feature request.
+    placeholder: 'Add any links or references here.'
+    required: false

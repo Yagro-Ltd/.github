@@ -1,0 +1,39 @@
+name: Task Request
+description: Submit a task for development.
+title: "[TASK]: "
+labels: ["task", "needs-investigation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a task! Please fill out the following form to help us understand your request.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Summarize the task encountered concisely.
+      placeholder: 'A brief summary of the task.'
+      required: true
+
+  - type: checkboxes
+    id: expected-deliverables
+    attributes:
+      label: Expected Deliverables
+      description: Bullet list of things expected to be delivered as part of this task.
+      options:
+        - label: 'Deliverable 1'
+          required: false
+        - label: 'Deliverable 2'
+          required: false
+        - label: 'Add more deliverables as needed'
+          required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Link to the line of code that might be relevant or describe dependencies.
+      placeholder: 'Detail any dependencies related to this task.'
+      required: false
